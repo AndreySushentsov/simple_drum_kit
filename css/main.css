@@ -1,0 +1,17 @@
+.keys{
+  display: flex;
+  flex-direction: row;
+}
+
+.sound{
+  padding: 10px 13px;
+  margin: 0 15px;
+  border: 2px solid green;
+  transition:0.1s;
+}
+
+.playing{
+  transform: scale(1.2);
+  background: gray;
+  color: white;
+}
